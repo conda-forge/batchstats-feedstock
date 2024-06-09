@@ -1,5 +1,5 @@
 {% set name = "batchstats" %}
-{% set version = "0.4" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/batchstats-{{ version }}.tar.gz
-  sha256: 6f8c5d91813342bd182ba36ca7f340e8fe3aea0dc2fb031cea27bbf49bb70c4a
+  sha256: 83935ee666c6387eb46d243f87089b2c0c035ccaa0126d1d5caf83ff9dc94394
 
 build:
   noarch: python
@@ -31,9 +31,10 @@ test:
     - pip
 
 about:
-  home: https://github.com/CyrilJl/BatchStats
+  home: https://batchstats.readthedocs.io/en/latest/index.html
   summary: Efficient batch statistics computation library for Python.
   description: Efficiently compute statistics for batch data with batchstats, a Python library optimized for handling streaming inputs and large datasets. batchstats supports a variety of statistical measures, including mean, variance, covariance, sum, min, and max, while ensuring minimal memory usage and high computational speed.  
+  dev_url: https://github.com/CyrilJl/BatchStats
   license: MIT
   license_file: LICENSE
 
