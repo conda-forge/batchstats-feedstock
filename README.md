@@ -3,11 +3,13 @@ About batchstats-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/batchstats-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/CyrilJl/BatchStats
+Home: https://batchstats.readthedocs.io/en/latest/index.html
 
 Package license: MIT
 
 Summary: Efficient batch statistics computation library for Python.
+
+Development: https://github.com/CyrilJl/BatchStats
 
 Efficiently compute statistics for batch data with batchstats, a Python library optimized for handling streaming inputs and large datasets. batchstats supports a variety of statistical measures, including mean, variance, covariance, sum, min, and max, while ensuring minimal memory usage and high computational speed.
 
