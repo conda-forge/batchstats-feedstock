@@ -35,6 +35,7 @@ test:
 
 about:
   summary: Efficient batch statistics computation library for Python.
+  home: https://batchstats.readthedocs.io/
   license: MIT
   license_file: LICENSE
 
