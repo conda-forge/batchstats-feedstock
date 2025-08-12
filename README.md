@@ -3,7 +3,7 @@ About batchstats-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/batchstats-feedstock/blob/main/LICENSE.txt)
 
-
+Home: https://batchstats.readthedocs.io/
 
 Package license: MIT
 

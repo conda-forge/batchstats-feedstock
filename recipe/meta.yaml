@@ -1,5 +1,5 @@
 {% set name = "batchstats" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/batchstats-{{ version }}.tar.gz
-  sha256: 7400a234a923ba7fc54ca160b0872a0cc2229b9aac758a1bf10cc65cf00351be
+  sha256: a8a22d893178fe4a7b41480ee6bba5b857d5ec30f2a13843d4fb4f4dadd7f952
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
